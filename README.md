@@ -1,5 +1,4 @@
 # Projeto_algoritimo
-Integrantes:
  Thiago Oyo Valentim  
  Matrícula: UC22103238  
  Curso: Análise e Desenvolvimento de Sistemas
