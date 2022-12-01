@@ -11,28 +11,28 @@ int main (){
 // Foi utilizado o conceito Nomes Pronunciáveis do livro Clean Code. Sendo assim, as variáveis foram descritas com nomes apropriados de acordo com a utilidade de cada variável.
 // Foi utilizado também o conceito de Indentação no qual é usado para indicar a hierarquia do código, evidenciando os acoplamentos entre os métodos e saber "quem está dentro de quem".
 	
-int tot, fem, masc, crianca, adolesc, adulto, idoso, sessoes, assistirams1, idades1[1000], maiorIdadeF, maiorIdadeM, countCarteirinha, countSemCarteirinha, countMeia, countInteira, assistirams2, idades2[1000], x1, x2, i, ingresso1[300], ingresso2[300], carteirinha1[1000], carteirinha2[1000];
-char generos1[1000], generos2[1000], masculino, feminino, filme[40], maior[8];
-setlocale(LC_ALL, "Portuguese"); //formata linguagem para portugues
+	int tot, fem, masc, crianca, adolesc, adulto, idoso, sessoes, assistirams1, idades1[1000], maiorIdadeF, maiorIdadeM, countCarteirinha, countSemCarteirinha, countMeia, countInteira, assistirams2, idades2[1000], x1, x2, i, ingresso1[300], ingresso2[300], carteirinha1[1000], carteirinha2[1000];
+	char generos1[1000], generos2[1000], masculino, feminino, filme[40], maior[8];
+	setlocale(LC_ALL, "Portuguese"); //formata linguagem para portugues
 
-masc = fem = crianca = adolesc = adulto = idoso = maiorIdadeF = maiorIdadeM = countInteira = countMeia = countCarteirinha = countSemCarteirinha = 0;
+	masc = fem = crianca = adolesc = adulto = idoso = maiorIdadeF = maiorIdadeM = countInteira = countMeia = countCarteirinha = countSemCarteirinha = 0;
 
 //Nome dos alunos com respectivos cursos e matrículas
-printf("Nome Completo: Thiago Oyo Valentim  /  Matrícula: UC22103238  / Curso: Análise e Desenvolvimento de Sistemas\n");				
-printf("Nome Completo: Tiago Amorim Esteve  /  Matrícula: UC22200438  / Curso: Análise e Desenvolvimento de Sistemas\n");
-printf("Nome Completo: Guilherme Henrique Candido Morais  /  Matrícula: UC22200490  / Curso: Análise e Desenvolvimento de Sistemas\n");
+	printf("Nome Completo: Thiago Oyo Valentim  /  Matrícula: UC22103238  / Curso: Análise e Desenvolvimento de Sistemas\n");				
+	printf("Nome Completo: Tiago Amorim Esteve  /  Matrícula: UC22200438  / Curso: Análise e Desenvolvimento de Sistemas\n");
+	printf("Nome Completo: Guilherme Henrique Candido Morais  /  Matrícula: UC22200490  / Curso: Análise e Desenvolvimento de Sistemas\n");
 
 //Questiona ao usuário qual o nome do filme
-printf("Nome do filme: ");
-fflush(stdin);
-fgets(filme, 40, stdin);
+	printf("Nome do filme: ");
+	fflush(stdin);
+	fgets(filme, 40, stdin);
 
 
 // Questiona ao usuário a quantidade de sessões com validação aceitando somente o número 2.
-do{
-	printf("digite o numero de sessões: ");
-	scanf ("%d", &sessoes);//quantidade de sessoes
-}while (sessoes != 2);//validaçao das 2 sessoes
+	do{
+		printf("digite o numero de sessões: ");
+		scanf ("%d", &sessoes);//quantidade de sessoes
+	}while (sessoes != 2);//validaçao das 2 sessoes
 
 
 ///////////////////SESSÃO 1 ////////////////////////
