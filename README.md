@@ -4,11 +4,11 @@ Integrantes:
  Matrícula: UC22103238  
  Curso: Análise e Desenvolvimento de Sistemas
  
- Nome Completo: Tiago Amorim Esteve 
+ Tiago Amorim Esteve 
  Matrícula: UC22200438
  Curso: Análise e Desenvolvimento de Sistemas
  
- Nome Completo: Guilherme Henrique Candido Morais
+ Guilherme Henrique Candido Morais
  Matrícula: UC22200490
  Curso: Análise e Desenvolvimento de Sistemas
 
