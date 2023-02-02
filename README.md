@@ -1,16 +1,15 @@
 # Projeto_algoritimo
  Thiago Oyo Valentim  
- Matrícula: UC22103238  
- Curso: Análise e Desenvolvimento de Sistemas
+  Matrícula: UC22103238  
+  Curso: Análise e Desenvolvimento de Sistemas
  
  Tiago Amorim Esteve 
- Matrícula: UC22200438
- Curso: Análise e Desenvolvimento de Sistemas
+  Matrícula: UC22200438
+  Curso: Análise e Desenvolvimento de Sistemas
  
- Guilherme Henrique Candido Morais
- 
- Matrícula: UC22200490
- Curso: Análise e Desenvolvimento de Sistemas
+ Guilherme Henrique Candido Morais 
+  Matrícula: UC22200490 
+  Curso: Análise e Desenvolvimento de Sistemas
 
 O projeto teve como objetivo criar um programa para auxiliar um cinema nas seguintes questões:
 - controle de faixa etaria;
